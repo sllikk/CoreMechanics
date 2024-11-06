@@ -17,5 +17,8 @@ struct FDT_Skin : public FTableRowBase
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="MATERIAL")
 	TSoftObjectPtr<UMaterialInterface> MaterialSoftObjectPtr;
+
+	UPROPERTY(EditAnywhere, Category="Mesh")
+	TSoftObjectPtr<UStaticMesh> StaticMeshF;
 	
 };

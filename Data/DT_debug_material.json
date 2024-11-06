@@ -3,7 +3,7 @@
         "Name": "M_Base",
         "ID_Material": 1,
         "Material_Description": "Basic Skin Material",
-        "MaterialSoftObjectPtr": "/Game/Base_Entity/Debug_Material/MI_Debug_Base.MI_Debug_Base"
+        "MaterialSoftObjectPtr": "/Game/StarterContent/Debug_Material/MI_Debug_Base.MI_Debug_Base"
     },
     
     {
@@ -17,14 +17,14 @@
         "Name": "M_Damage",    
         "ID_Material": 3,
         "Material_Description": "Take Damage",
-        "MaterialSoftObjectPtr": "/Game/StarterContent/Debug_Material/MI_Debug_Blue.MI_Debug_Yellow"
+        "MaterialSoftObjectPtr": "/Game/StarterContent/Debug_Material/MI_Debug_Yellow.MI_Debug_Yellow"
     },
 
     {
         "Name": "M_Attack",   
         "ID_Material": 4,
         "Material_Description": "Attack",
-        "MaterialSoftObjectPtr": "/Game/StarterContent/Debug_Material/MI_Debug_Blue.MI_Debug_Red"
+        "MaterialSoftObjectPtr": "/Game/StarterContent/Debug_Material/MI_Debug_Red.MI_Debug_Red"
     }
 
 
