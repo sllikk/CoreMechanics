@@ -32,15 +32,6 @@ class GAME_API ADebugActor : public AActor
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="DataTable", meta=(AllowPrivateAccess))
 	TSoftObjectPtr<UDataTable> DT_Skin;
 
-	UPROPERTY()
-	TSoftObjectPtr<UMaterialInterface> MaterialInterface;
-
-	UPROPERTY()
-	TSoftObjectPtr<UStaticMesh> StaticMesh;
-
-	UPROPERTY()
-	TSoftObjectPtr<UNiagaraSystem> NiagaraSystem;
-	
 public:	
 	// Sets default values for this actor's properties
 	ADebugActor();
@@ -51,11 +42,10 @@ protected:
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 	virtual void Tick(float DeltaTime) override;
 
-	void GetData();
-	void DataAssetDeferent() const;
 	
 public:	
 
 	FStreamableManager StreamableManager;
-	
+	FTimerHandle TimerHandle;
+
 };

@@ -3,3 +3,7 @@
 
 #include "GamePlay/BaseCheatManager.h"
 
+UBaseCheatManager::UBaseCheatManager()
+{
+
+}

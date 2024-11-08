@@ -9,9 +9,14 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class GAME_API UBaseCheatManager : public UCheatManager
 {
 	GENERATED_BODY()
+
+public:	
+
+	UBaseCheatManager();
+
 	
 };

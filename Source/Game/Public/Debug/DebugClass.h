@@ -13,5 +13,8 @@ UCLASS()
 class GAME_API UDebugClass : public UObject
 {
 	GENERATED_BODY()
+
+
+	
 	
 };
